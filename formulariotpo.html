@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="formulariotpo.css" .css">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>LA GALERIA DE CARO</h1>
+        <nav>
+            <a href="index.html" class="enlace">Inicio</a>
+            <a href="galeriatpo.html" class="enlace">Galeria</a>
+            <a href="formulariotpo.html" class="enlace">Contacto</a>
+
+        </nav>
+    </header>
+
+    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.058517534007!2d-58.393176!3d-34.5848217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bcb7db37f6f9421!2sPlaza%20Francia!5e0!3m2!1ses-419!2sar!4v1630415685248!5m2!1ses-419!2sar"
+    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+    
+       
+        <h2>CONTÁCTENOS Ante cualquier duda o consulta puede enviarnos un correo a través del siguiente formulario</h2>
+        <form name="formulario" method="post" target="blank">        
+        <fieldset>    
+            <label>Nombre:
+                <input type="text" name="Nombre" minlength="3" maxlength="40" autocomplete="off" required></label>
+            <br>
+            <label> Email:
+                <input type="email" name="" id="email" required></label>
+
+            <h3>Preferencias de Estilo</h3>
+            <ul class="preferencias">
+                <li><input type="checkbox" name="grande"> Grande (50cm x 70cm), 100 euros</li>
+                <li> <input type="checkbox" name="mediano"> Mediano (35cm x 50cm), 75 euros</li>
+                <li> <Input type="checkbox" name="pequeño"> Pequeño (20cm x 30cm), 50 euros</li>
+
+            </ul>
+            <br>
+
+            <ul class="preferencias">
+                <li><input type="checkbox" name="estilorealista">Realista</li>
+                <li> <input type="checkbox" name="estilocubista">Cubista</li>
+
+            </ul>
+            <br>
+            <ul class="preferencias">
+                <li><input type="checkbox" name="materiall">Lapiz</li>
+                <li> <input type="checkbox" name="materiala">Acuarela</li>
+
+            </ul>
+            <br>
+
+            <p><textarea name="comentario" cols="70" rows="20">escribe aquí...</textarea></p>
+            
+            <p><input type="submit" value="Enviar"> <input type="reset" value="Borrar"></p>
+
+        </fieldset>
+
+    </form>
+  <!--<iframe src="https://google/maps/ddvvdnqVKATDGDrNA" width="100em" height="50em" frameborder="0"></iframe>-->
+
+    <footer class="footer"><h3>DERECHOS RESERVADOS 2021</h3></footer>
+
+</body>
+
+</html>

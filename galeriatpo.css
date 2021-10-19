@@ -1,0 +1,110 @@
+*{  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0% ;
+    padding: 0%;
+   /* background-image: linear-gradient(-60deg, #1386f1 0%, #f4d03f 20%);*/
+   /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); 
+   /* background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+   /* background: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
+   /* background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+   /*background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);*/
+  /* background:coral*/
+}
+.header{background-color: black;
+    width: 100%;
+    margin: 0;
+        padding: 10px;
+}
+.enlace{ 
+        background-color: rgb(64, 138, 80);
+        padding: 5px;
+        border-radius: 10%;
+        text-decoration: none;
+        color:white;
+        font-size: 1.1em;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.slider{
+    background-color:rgba(45, 210, 30, 0.548);
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+.slider ul{
+    display: flex;
+    animation: cambio 50s infinite alternate linear;
+    width: 1000%;    
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style:none;
+
+}
+.slider img{
+   width: 50%; 
+   height: 70%;
+   padding-top: 1%;
+
+}
+footer{
+    background-color: rgb(17, 17, 13);
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 3px;
+    width: 100%;
+    max-height: 5% ;
+    font-size: 1.1em;
+    
+}
+
+   /* position: fixed;*/
+
+@keyframes cambio {
+    0%{margin-left: 25%;} 
+    5%{margin-left: 25%;}
+    
+    10%{margin-left: -75%;}
+    15%{margin-left: -75%;}
+
+    20%{margin-left: -175%;}
+    25%{margin-left: -175%;}
+    
+    30%{margin-left: -275%;}
+    35%{margin-left: -275%;}
+    
+    40%{margin-left: -375%;}
+    45%{margin-left: -375%;}
+    
+    50%{margin-left: -475%;}
+    55%{margin-left: -475%;}
+    
+    60%{margin-left: -575%;}
+    65%{margin-left: -575%;}
+
+    70%{margin-left: -675%;}
+    75%{margin-left: -675%;}
+    
+    80%{margin-left: -775%;}
+    85%{margin-left: -775%;}
+    
+    90%{margin-left: -875%;}
+    100%{margin-left: -875%;}
+
+}
+/*@media (max-width:250px) {
+    .enlace{ 
+        padding: 3px;
+        font-size: 1.1px;}
+    }
