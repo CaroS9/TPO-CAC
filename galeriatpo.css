@@ -1,5 +1,6 @@
-*{  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-sizing: border-box;
+body{  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*  box-sizing: border-box;*/
     margin: 0% ;
     padding: 0%;
    /* background-image: linear-gradient(-60deg, #1386f1 0%, #f4d03f 20%);*/
@@ -13,7 +14,7 @@
 .header{background-color: black;
     width: 100%;
     margin: 0;
-        padding: 10px;
+    padding: 10px;
 }
 .enlace{ 
         background-color: rgb(64, 138, 80);
@@ -28,6 +29,14 @@ h1{
     font-size: 2em;
     color: white;
     font-weight: bold;
+    padding: 0.5em;
+}
+h3{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em;
+
 }
 
 .slider{
@@ -52,59 +61,54 @@ h1{
 
 }
 .slider img{
-   width: 50%; 
-   height: 70%;
+   width: 40%; 
+   height: 60%;
    padding-top: 1%;
 
 }
 footer{
-    background-color: rgb(17, 17, 13);
+    background-color: black;
     color: white;
     text-align: center;
     margin-top: 0;
     padding: 3px;
     width: 100%;
-    max-height: 5% ;
-    font-size: 1.1em;
-    
+    font-size: 1.1em;    
 }
-
-   /* position: fixed;*/
 
 @keyframes cambio {
-    0%{margin-left: 25%;} 
-    5%{margin-left: 25%;}
+    0%{margin-left: 30%; margin-right: 30%;} 
+    5%{margin-left: 30%; margin-right: 30%;}
     
-    10%{margin-left: -75%;}
-    15%{margin-left: -75%;}
+    10%{margin-left: -70%; margin-right: -70%;}
+    15%{margin-left: -70%; margin-right: -70%;}
 
-    20%{margin-left: -175%;}
-    25%{margin-left: -175%;}
+    20%{margin-left: -170%; margin-right: -170%;}
+    25%{margin-left: -170%; margin-right: -170%;}
     
-    30%{margin-left: -275%;}
-    35%{margin-left: -275%;}
+    30%{margin-left: -270%; margin-right: -270%;}
+    35%{margin-left: -270%; margin-right: -270%;}
     
-    40%{margin-left: -375%;}
-    45%{margin-left: -375%;}
+    40%{margin-left: -370%; margin-right: -370%;}
+    45%{margin-left: -370%; margin-right: -370%;}
     
-    50%{margin-left: -475%;}
-    55%{margin-left: -475%;}
+    50%{margin-left: -470%; margin-right: -470%;}
+    55%{margin-left: -470%; margin-right: -470%;}
     
-    60%{margin-left: -575%;}
-    65%{margin-left: -575%;}
+    60%{margin-left: -570%; margin-right: -570%;}
+    65%{margin-left: -570%; margin-right: -570%;}
 
-    70%{margin-left: -675%;}
-    75%{margin-left: -675%;}
+    70%{margin-left: -670%; margin-right: -670%;}
+    75%{margin-left: -670%; margin-right: -670%;}
     
-    80%{margin-left: -775%;}
-    85%{margin-left: -775%;}
+    80%{margin-left: -770%; margin-right: -770%;;}
+    85%{margin-left: -770%; margin-right: -770%;}
     
-    90%{margin-left: -875%;}
-    100%{margin-left: -875%;}
+    90%{margin-left: -870%; margin-right: -870%;}
+    100%{margin-left: -870%; margin-right: -870%;}
 
 }
-/*@media (max-width:250px) {
-    .enlace{ 
+@media (max-width:480px){
+    .enlace{
         padding: 3px;
-        font-size: 1.1px;}
-    }
+        font-size: 0.9rem;}    }

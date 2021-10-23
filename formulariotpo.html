@@ -7,7 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="formulariotpo.css" .css">
+    <script type="text/javascript">
+        function validar(){
+            var form = document.form;
+            
+            if(form.nombre.value==0){
+                alert("el campo nombre esta vacio");
+                form.nombre.value="";
+                form.nombre.focus();
+                return false;
+            }
+            if(form.correo.value==0){
+                alert("el campo correo esta vacio");
+                form.nombre.value="";
+                form.correo.focus();
+                return false;
+            }
+        alert("datos enviados exitosamente");
+        form.submit();
+        }  
+    </script>
     <title>Formulario de contacto</title>
+
 </head>
 
 <body>
@@ -21,51 +42,51 @@
         </nav>
     </header>
 
-    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.058517534007!2d-58.393176!3d-34.5848217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bcb7db37f6f9421!2sPlaza%20Francia!5e0!3m2!1ses-419!2sar!4v1630415685248!5m2!1ses-419!2sar"
-    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
-    
-       
-        <h2>CONTÁCTENOS Ante cualquier duda o consulta puede enviarnos un correo a través del siguiente formulario</h2>
-        <form name="formulario" method="post" target="blank">        
-        <fieldset>    
-            <label>Nombre:
-                <input type="text" name="Nombre" minlength="3" maxlength="40" autocomplete="off" required></label>
+    <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario</h3>
+    <form name="formulario" action="#" method="post" onsubmit="return validar();">
+        <!--target="blank"-->
+        <fieldset>
+            Nombre:<input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
+                 required>
+
             <br>
-            <label> Email:
-                <input type="email" name="" id="email" required></label>
+            Email:<input type="email" name="correo" id="email" placeholder="ingrese su e-mail..." required>
+
 
             <h3>Preferencias de Estilo</h3>
             <ul class="preferencias">
-                <li><input type="checkbox" name="grande"> Grande (50cm x 70cm), 100 euros</li>
-                <li> <input type="checkbox" name="mediano"> Mediano (35cm x 50cm), 75 euros</li>
-                <li> <Input type="checkbox" name="pequeño"> Pequeño (20cm x 30cm), 50 euros</li>
+                <li><input type="radio" name="opcion"> Grande (50cm x 70cm), 100 euros</li>
+                <li> <input type="radio" name="opcion"> Mediano (35cm x 50cm), 75 euros</li>
+                <li> <Input type="radio" name="opcion"> Pequeño (20cm x 30cm), 50 euros</li>
 
             </ul>
             <br>
 
             <ul class="preferencias">
-                <li><input type="checkbox" name="estilorealista">Realista</li>
-                <li> <input type="checkbox" name="estilocubista">Cubista</li>
+                <li><input type="radio" name="opcion2">Realista</li>
+                <li> <input type="radio" name="opcion2">Cubista</li>
 
             </ul>
             <br>
             <ul class="preferencias">
-                <li><input type="checkbox" name="materiall">Lapiz</li>
-                <li> <input type="checkbox" name="materiala">Acuarela</li>
+                <li><input type="radio" name="opcion3">Lapiz</li>
+                <li> <input type="radio" name="opcion3">Acuarela</li>
 
             </ul>
             <br>
+            <h3>El pago se realiza mediante transferencia, <strong>ENVIO GRATIS</strong> </h3>
 
-            <p><textarea name="comentario" cols="70" rows="20">escribe aquí...</textarea></p>
-            
-            <p><input type="submit" value="Enviar"> <input type="reset" value="Borrar"></p>
-
+            <<textarea name="comentario" cols="60" rows="5" placeholder="escriba aqui su mensaje o consulta..."></textarea>
+            <br>
+            <input type="reset" value="Borrar">
         </fieldset>
+        <input onclick="validar();" type="submit" value="Enviar">
 
     </form>
-  <!--<iframe src="https://google/maps/ddvvdnqVKATDGDrNA" width="100em" height="50em" frameborder="0"></iframe>-->
 
-    <footer class="footer"><h3>DERECHOS RESERVADOS 2021</h3></footer>
+    <footer>
+        <h2>DERECHOS RESERVADOS 2021</h2>
+    </footer>
 
 </body>
 
