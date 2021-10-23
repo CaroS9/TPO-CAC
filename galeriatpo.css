@@ -1,4 +1,4 @@
-body{  
+*{  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /*  box-sizing: border-box;*/
     margin: 0% ;
@@ -61,8 +61,8 @@ h3{
 
 }
 .slider img{
-   width: 30%; 
-   height: 55%;
+   width: 40%; 
+   height: 60%;
    padding-top: 1%;
 
 }

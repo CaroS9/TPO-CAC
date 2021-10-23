@@ -8,24 +8,24 @@
     <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="formulariotpo.css" .css">
     <script type="text/javascript">
-        function validar(){
+        function validar() {
             var form = document.form;
-            
-            if(form.nombre.value==0){
+
+            if (form.nombre.value == 0) {
                 alert("el campo nombre esta vacio");
-                form.nombre.value="";
+                form.nombre.value = "";
                 form.nombre.focus();
                 return false;
             }
-            if(form.correo.value==0){
+            if (form.correo.value == 0) {
                 alert("el campo correo esta vacio");
-                form.nombre.value="";
+                form.nombre.value = "";
                 form.correo.focus();
                 return false;
             }
-        alert("datos enviados exitosamente");
-        form.submit();
-        }  
+            alert("datos enviados exitosamente");
+            form.submit();
+        }
     </script>
     <title>Formulario de contacto</title>
 
@@ -47,17 +47,17 @@
         <!--target="blank"-->
         <fieldset>
             Nombre:<input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
-                 required>
+                required>
 
             <br>
-            Email:<input type="email" name="correo" id="email" placeholder="ingrese su e-mail..." required>
+            Email:<input type="email" name="correo" id="email" placeholder="e-mail(no menos de 8 caracteres)" required>
 
 
             <h3>Preferencias de Estilo</h3>
             <ul class="preferencias">
-                <li><input type="radio" name="opcion"> Grande (50cm x 70cm), 100 euros</li>
-                <li> <input type="radio" name="opcion"> Mediano (35cm x 50cm), 75 euros</li>
-                <li> <Input type="radio" name="opcion"> Pequeño (20cm x 30cm), 50 euros</li>
+                <li><input type="radio" name="opcion"> Grande (30cm x 43cm), 5000$</li>
+                <li> <input type="radio" name="opcion"> Mediano (21cm x 30cm), 3500$</li>
+                <li> <Input type="radio" name="opcion"> Pequeño (13cm x 18cm), 2500$</li>
 
             </ul>
             <br>
@@ -73,10 +73,13 @@
                 <li> <input type="radio" name="opcion3">Acuarela</li>
 
             </ul>
+            
+            <h3>El pago se realiza mediante transferencia </h3>
+            <h3> ENVIO GRATIS en la provincia de Salta </h3>
             <br>
-            <h3>El pago se realiza mediante transferencia, <strong>ENVIO GRATIS</strong> </h3>
 
-            <<textarea name="comentario" cols="60" rows="5" placeholder="escriba aqui su mensaje o consulta..."></textarea>
+            <textarea name="comentario" cols="60" rows="5" placeholder="escriba aqui su mensaje o consulta...">
+            </textarea>
             <br>
             <input type="reset" value="Borrar">
         </fieldset>
