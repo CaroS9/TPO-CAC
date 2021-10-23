@@ -61,8 +61,8 @@ h3{
 
 }
 .slider img{
-   width: 40%; 
-   height: 60%;
+   width: 30%; 
+   height: 55%;
    padding-top: 1%;
 
 }
@@ -73,7 +73,11 @@ footer{
     margin-top: 0;
     padding: 3px;
     width: 100%;
-    font-size: 1.1em;    
+    font-size: 1.1em;   
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+
 }
 
 @keyframes cambio {
