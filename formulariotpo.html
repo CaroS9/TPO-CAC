@@ -43,21 +43,21 @@
     </header>
 
     <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario</h3>
-    <form name="formulario" action="#" method="post" onsubmit="return validar();">
+    <form name="formulario" action="show_data.html" method="post" onsubmit="return validar();">
         <!--target="blank"-->
         <fieldset>
-            Nombre:<input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
+             <label for="nombre">Nombre:</label><input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
                 required>
 
             <br>
-            Email:<input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
+           <label for="email">E-mail:</label><input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
 
 
             <h3>Preferencias de Estilo</h3>
             <ul class="preferencias">
-                <li><input type="radio" name="opcion"> Grande (30cm x 43cm), 5000$</li>
-                <li> <input type="radio" name="opcion"> Mediano (21cm x 30cm), 3500$</li>
-                <li> <Input type="radio" name="opcion"> Pequeño (13cm x 18cm), 2500$</li>
+                <li><input type="radio" name="opcion1"> Grande (30cm x 43cm), 5000$</li>
+                <li> <input type="radio" name="opcion1"> Mediano (21cm x 30cm), 3500$</li>
+                <li> <Input type="radio" name="opcion1"> Pequeño (13cm x 18cm), 2500$</li>
 
             </ul>
             <br>

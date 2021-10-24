@@ -22,19 +22,21 @@ h1 {
 h3{ color:black;
 
     font-weight: bold;
-    padding: 0.1em;
+    padding: 0.5em;
     
     
 }
 fieldset{background-color: rgb(253, 243, 230);
     margin: 1% 3%;
     padding: 1rem;
+    width: 60%;
 }
 input{
     padding: 0.2rem;
     margin: 0.2rem;
     border-radius: 10%;
 }
+
 footer{
     background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
     text-align: center;
@@ -70,12 +72,12 @@ input [type=summit] :hover {
     color: rgb(0, 139, 69);
     
 }*/
-@media (max-width:480px){
+@media (max-width:400px){
     
     .enlace{
         padding: 3px;
         font-size: 0.9rem;}
     h1{ font-size: 1.5em;}
-    h2{ font-size: 0.9em;
-     }
+    h2{ font-size: 0.9em;}
+    h3{ font-size: 0.7em;} 
 }
