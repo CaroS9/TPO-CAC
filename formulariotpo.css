@@ -9,7 +9,7 @@ header {
     background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
     width: 100%;
     margin: 0;
-    padding: 5px;
+    padding: 3px;
     
 }
 h1 {
@@ -19,17 +19,27 @@ h1 {
     font-weight: bold;
     padding: 0.3em;
 }
-h3{ color:black;
-
+h2{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
     font-weight: bold;
-    padding: 0.5em;
+    padding: 0.3em;
+
+}
+h3{ 
+    color:black;
+    font-weight: bold;
+    padding: 0.3em;
+    font-size: 1.2em;
     
     
 }
 fieldset{background-color: rgb(253, 243, 230);
-    margin: 1% 3%;
+    margin: 0.5%;
     padding: 1rem;
-    width: 60%;
+    width: 99%;
+    overflow: hidden;
 }
 input{
     padding: 0.2rem;
@@ -43,7 +53,7 @@ footer{
     margin-top: 0;
     padding: 3px;
     width: 100%;
-    font-size: 1.1em;
+   /* font-size: 1.1em;*/
     color: white;
 }
 
@@ -52,7 +62,7 @@ footer{
     padding: 5px;
     border-radius: 10%;
     text-decoration: none;
-    color: rgb(227, 179, 233);
+    color: white;
    font-size: 1.1em;
 }
 
@@ -62,7 +72,7 @@ footer{
     list-style-type: none;
 
 }
-input [type=summit] :hover {
+/*input [type=summit] :hover {
     background-color: rgb(144, 40, 241);
     cursor: pointer;
 }

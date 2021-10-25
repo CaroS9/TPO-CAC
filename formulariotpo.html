@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="formulariotpo.css" .css">
+    <link rel="stylesheet" href="formulariotpo.css">
     <script type="text/javascript">
         function validar() {
             var form = document.form;
@@ -43,21 +43,23 @@
     </header>
 
     <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario</h3>
-    <form name="formulario" action="show_data.html" method="post" onsubmit="return validar();">
+    <form name="formulario" action="show_data.html" method="get" onsubmit="return validar();">
         <!--target="blank"-->
         <fieldset>
-             <label for="nombre">Nombre:</label><input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
-                required>
-
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..." required>
             <br>
-           <label for="email">E-mail:</label><input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
+
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
 
 
             <h3>Preferencias de Estilo</h3>
             <ul class="preferencias">
-                <li><input type="radio" name="opcion1"> Grande (30cm x 43cm), 5000$</li>
-                <li> <input type="radio" name="opcion1"> Mediano (21cm x 30cm), 3500$</li>
-                <li> <Input type="radio" name="opcion1"> Pequeño (13cm x 18cm), 2500$</li>
+                <li><input type="radio" name="opcion1">Grande (30cm x 43cm), 5000$</li>
+                <li> <input type="radio" name="opcion1">Mediano (21cm x 30cm), 4000$</li>
+                <li> <Input type="radio" name="opcion1">Pequeño (13cm x 18cm), 2500$</li>
 
             </ul>
             <br>
@@ -73,22 +75,28 @@
                 <li> <input type="radio" name="opcion3">Acuarela</li>
 
             </ul>
-            
-            <h3>El pago se realiza mediante transferencia </h3>
-            <h3> ENVIO GRATIS en la provincia de Salta </h3>
             <br>
 
-            <textarea name="comentario" cols="60" rows="5" >escriba aqui su mensaje o consulta...  
+            <h3>El pago se realiza por transferencia</h3>
+            <h3>ENVIO GRATIS para Salta</h3>
+            <br>
+
+            <textarea name="comentario" cols="50" rows="5">escriba aqui su mensaje o consulta...  
             </textarea>
             <br>
             <input type="reset" value="Borrar">
-    
-        <input onclick="validar();" type="submit" value="Enviar">
+           
+            <input onclick="validar();" type="submit" value="Enviar">
         </fieldset>
     </form>
 
     <footer>
-        <img src="favicons/face.jpg" alt="">
+        <a class="bx bxl-twitter" href="https://twitter.com/home?lang=es"
+           target="_blanck" style="text-decoration: none; color:white;"><img src="favicons/twip.jpg" alt=""></a>
+        <a class="bx bxl-instagram-alt" href="https://www.instagram.com/"
+        target="_blanck" style="text-decoration: none; color:white"><img src="favicons/instp.jpg" alt"></a>
+        <a class="bx bxl-facebook-circle" href="https://www.facebook.com/"
+        target="_blanck" style="text-decoration: none; color:white;"><img src="favicons/face.jpg" alt=""></a>
         <h2>DERECHOS RESERVADOS 2021</h2>
     </footer>
 
