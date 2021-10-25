@@ -2,7 +2,7 @@
 *{
      margin: 0%;
      padding: 0;
-     box-sizing: border-box;
+  /*   box-sizing: border-box;*/
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
  }
 
@@ -20,13 +20,20 @@ h1 {
     font-weight: bold;
     padding: 0.3em;
 }
-h3, p{
+p{
     color: black;
     text-align: center;
     font-weight: bold;
     padding: 0.1em;
 
 
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size:1.5em;
+    font-weight: bold;
+    margin-bottom: 0.1em;
 }
 .enlace{ 
     background-color: rgb(33, 95, 146);
@@ -81,12 +88,10 @@ footer{
 }
 #columna-2 {
     flex:1;
- 
-
 }
 #columna-2 >img{
-        max-width: 99%;
-        max-height: 99%;
+       max-width:99%;
+       max-height: 99%;
         padding: 1%;
         margin-top: 20%;
         margin-bottom: 20%;
@@ -96,12 +101,11 @@ footer{
 }
 
 #columna-3 {
-    flex: 1;
-  
-
+    flex: 1;  
 }
 #columna-3 >p, iframe{
-    padding: 1em;}
+    padding: 1em;
+}
 
 @media (max-width:1050px){
     #cajapadre3c{
@@ -117,7 +121,8 @@ footer{
         padding: 3px;
         font-size: 0.9rem;}
         h1{ font-size: 1.5em;}
-        h2{ font-size: 0.9em;}  
+        h2{ font-size: 0.9em;} 
+        h3{ font-size: 0.9em;} 
 }
  
  
