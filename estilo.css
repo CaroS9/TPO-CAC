@@ -58,7 +58,6 @@ footer{
     max-width: 100%;
     max-height: 100%;
     gap: 2px;
-  /*  padding: 5px 5px;*/
     flex-wrap: wrap;
     
 }
@@ -90,14 +89,12 @@ footer{
     flex:1;
 }
 #columna-2 >img{
-       max-width:99%;
-       max-height: 99%;
+      max-width: 99%; 
+       height: 76%;
         padding: 1%;
         margin-top: 10%;
         margin-bottom: 10%;
         border-radius: 10%;
-      
-      /*  object-fit: cover;*/
 }
 
 #columna-3 {
@@ -123,12 +120,7 @@ footer{
     h1{ font-size: 1.5em;}
     h2{ font-size: 0.9em;} 
     h3{ font-size: 0.8em;} 
-   /*  #cajapadre3c{
-            flex-direction: column;}
-    #columna-1 {flex:1;}
-    #columna-2 {flex:1;  align-items: center;}
-     #columna-3 {flex:1;}
-}
+  
  
  
 /* @media screen and (min-width:651px) and (max-width:1050px) {
@@ -139,18 +131,4 @@ footer{
  
  }
  
-
-/*@media (max-width:790px ),(min-width:481){
-    img{
-        padding-top:25%;
-        padding-bottom:25%;*/
-}
-}
-/*@media only screen and (min-width: 481px) and 
-(max-width: 789px)
-{
-img{ align-items: center;*/
-    /*padding-top:25%;
-    padding-bottom:25%;*/
-}
-}
+*/
