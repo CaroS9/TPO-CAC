@@ -1,10 +1,10 @@
 
-*{  width: 100%;
+*{ /* width: 100%;*/
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      margin: 0%;
     box-sizing: border-box;
-    display: inline-block;
+    display: flexbox;
 }
 
 header {
