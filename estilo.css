@@ -63,7 +63,7 @@ footer{
     
 }
 #cajapadre3c > div{
-    height: 100%px;
+    height: 100%;
     margin: 2px;
     background-image: linear-gradient(-225deg, rgb(129, 101, 207) 0%, #09b4a6 52%, #665acf 100%);
     overflow: hidden;  
