@@ -4,7 +4,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      margin: 0%;
     box-sizing: border-box;
-    display: flexbox;
+    display: flex;
 }
 
 header {
@@ -42,9 +42,10 @@ form{
     width: 90%;
 }
 fieldset{background-color: rgb(253, 243, 230);
-    margin: 0;
+    margin-left: 1%;
+    margin-right: 1%;
     padding: 1rem;
-    width: 90%;
+    width: 100%;
    /* overflow: scroll;*/
 }
 input{

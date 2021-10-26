@@ -32,80 +32,91 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>LA GALERIA DE CARO</h1>
-        <h2>el lugar donde hacemos sus retratos </h2>
-        <nav>
-            <a href="index.html" class="enlace">Inicio</a>
-            <a href="galeriatpo.html" class="enlace">Galeria</a>
-            <a href="formulariotpo.html" class="enlace">Contacto</a>
+    <div class="padre_3c">
+        <div class="encabezado">
+            <header class="header">
+                <h1>LA GALERIA DE CARO</h1>
+                <h2>el lugar donde hacemos sus retratos </h2>
+                <nav>
+                    <a href="index.html" class="enlace">Inicio</a>
+                    <a href="galeriatpo.html" class="enlace">Galeria</a>
+                    <a href="formulariotpo.html" class="enlace">Contacto</a>
 
-        </nav>
-    </header>
+                </nav>
+            </header>
+        </div>
+        <div class="formulario">
+            <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
+            </h3>
+            <form name="formulario" action="show_data.html" method="get" onsubmit="return validar();">
+                <!--target="blank"-->
+                <fieldset>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
+                        required>
+                    <br>
 
-    <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario</h3>
-    <form name="formulario" action="show_data.html" method="get" onsubmit="return validar();">
-        <!--target="blank"-->
-        <fieldset>
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..." required>
-            <br>
 
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
+                    <br>
 
-            <label for="email">E-mail:</label><br>
-            <input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
-             <br>
+                    <h3>Preferencias de Estilo</h3>
+                    <br>
+                    <ul class="preferencias">
+                        <li><input type="radio" name="opcion1">Grande (30cm x 43cm), 5000$</li>
+                        <li> <input type="radio" name="opcion1">Mediano (21cm x 30cm), 4000$</li>
+                        <li> <Input type="radio" name="opcion1">Pequeño (13cm x 18cm), 2500$</li>
 
-            <h3>Preferencias de Estilo</h3>
-            <br>
-            <ul class="preferencias">
-                <li><input type="radio" name="opcion1">Grande (30cm x 43cm), 5000$</li>
-                <li> <input type="radio" name="opcion1">Mediano (21cm x 30cm), 4000$</li>
-                <li> <Input type="radio" name="opcion1">Pequeño (13cm x 18cm), 2500$</li>
+                    </ul>
+                    <br>
 
-            </ul>
-            <br>
+                    <ul class="preferencias">
+                        <li><input type="radio" name="opcion2">Realista</li>
+                        <li> <input type="radio" name="opcion2">Cubista</li>
 
-            <ul class="preferencias">
-                <li><input type="radio" name="opcion2">Realista</li>
-                <li> <input type="radio" name="opcion2">Cubista</li>
+                    </ul>
+                    <br>
+                    <ul class="preferencias">
+                        <li><input type="radio" name="opcion3">Lapiz</li>
+                        <li> <input type="radio" name="opcion3">Acuarela</li>
 
-            </ul>
-            <br>
-            <ul class="preferencias">
-                <li><input type="radio" name="opcion3">Lapiz</li>
-                <li> <input type="radio" name="opcion3">Acuarela</li>
+                    </ul>
+                    <br>
+                    <p>Consulte por otros tamaños y técnicas. •Si lo desea enmarcado en marco de madera natural o negro
+                        con
+                        vidrio, para colgar $550 adicionales. •El tiempo de realización se estima alrededor de 3 días.
+                        •Para
+                        realizar la obra sólo tiene que adjuntar una o varias fotografías del/los modelos elegidos, una
+                        vez
+                        realizada la compra. Puede combinar varias imágenes o agregar lo que desee al cuadro, todo es
+                        posible!
+                    </p>
+                    <h3>El pago se realiza por transferencia</h3>
+                    <h3>ENVIO GRATIS para Salta</h3>
+                    <br>
 
-            </ul>
-            <br>
-            <p>Consulte por otros tamaños y técnicas. •Si lo desea enmarcado en marco de madera natural o negro con
-                vidrio, para colgar $550 adicionales. •El tiempo de realización se estima alrededor de 3 días. •Para
-                realizar la obra sólo tiene que adjuntar una o varias fotografías del/los modelos elegidos, una vez
-                realizada la compra. Puede combinar varias imágenes o agregar lo que desee al cuadro, todo es posible!
-            </p>
-            <h3>El pago se realiza por transferencia</h3>
-            <h3>ENVIO GRATIS para Salta</h3>
-            <br>
-
-            <textarea name="comentario" cols="50" rows="5">escriba aqui su mensaje o consulta...  
+                    <textarea name="comentario" cols="50" rows="5">escriba aqui su mensaje o consulta...  
             </textarea>
-            <br>
-            <input type="reset" value="Borrar">
+                    <br>
+                    <input type="reset" value="Borrar">
 
-            <input onclick="validar();" type="submit" class="" value="Enviar">
-        </fieldset>
-    </form>
-
-    <footer>
-        <a class="bx bxl-twitter" href="https://twitter.com/home?lang=es" target="_blanck"
-            style="text-decoration: none; color:white;"><img src="favicons/twip.jpg" alt=""></a>
-        <a class="bx bxl-instagram-alt" href="https://www.instagram.com/" target="_blanck"
-            style="text-decoration: none; color:white"><img src="favicons/instp.jpg" alt"></a>
-        <a class="bx bxl-facebook-circle" href="https://www.facebook.com/" target="_blanck"
-            style="text-decoration: none; color:white;"><img src="favicons/face.jpg" alt=""></a>
-        <h2>DERECHOS RESERVADOS 2021</h2>
-    </footer>
-
+                    <input onclick="validar();" type="submit" class="" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pie"></div>
+        <footer>
+            <a class="bx bxl-twitter" href="https://twitter.com/home?lang=es" target="_blanck"
+                style="text-decoration: none; color:white;"><img src="favicons/twip.jpg" alt=""></a>
+            <a class="bx bxl-instagram-alt" href="https://www.instagram.com/" target="_blanck"
+                style="text-decoration: none; color:white"><img src="favicons/instp.jpg" alt"></a>
+            <a class="bx bxl-facebook-circle" href="https://www.facebook.com/" target="_blanck"
+                style="text-decoration: none; color:white;"><img src="favicons/face.jpg" alt=""></a>
+            <h2>DERECHOS RESERVADOS 2021</h2>
+        </footer>
+    </div>
+    </div>
 </body>
 
 </html>
