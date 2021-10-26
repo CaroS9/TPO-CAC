@@ -18,7 +18,6 @@ header {
 h1 {
     color: white;
     text-align: center;
- /*   font-size: 2em;*/
     font-weight: bold;
     padding: 0.3em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -26,7 +25,6 @@ h1 {
 h2{
     color: white;
     text-align: center;
-   /* font-size: 1.5em;*/
     font-weight: bold;
     padding: 0.2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,15 +34,15 @@ h3{
     color:black;
     font-weight: bold;
     padding: 0.2em;
- /*   font-size: 1.2em;*/
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
 fieldset{background-color: rgb(253, 243, 230);
     margin: 0;
     padding: 1rem;
-    width: 99%;
+    width: 90%;
     overflow: hidden;
 }
 input{
@@ -58,9 +56,8 @@ footer{
     text-align: center;
     margin-top: 0;
     padding: 3px;
-    width: 100%;
-   /* font-size: 1.1em;*/
     color: white;
+    width: 100%;
 }
 
 .enlace{ 
@@ -69,7 +66,7 @@ footer{
     border-radius: 10%;
     text-decoration: none;
     color: white;
-   font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .preferencias{
