@@ -38,12 +38,14 @@ h3{
     
 }
 p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-
+form{
+    width: 90%;
+}
 fieldset{background-color: rgb(253, 243, 230);
     margin: 0;
     padding: 1rem;
     width: 90%;
-    overflow: hidden;
+   /* overflow: scroll;*/
 }
 input{
     padding: 0.2rem;
