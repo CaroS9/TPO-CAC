@@ -38,7 +38,9 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;}
+
 form{
     width: 90%;
 }
@@ -91,7 +93,7 @@ footer{
     color: rgb(0, 139, 69);
     
 }*/
-@media (max-width:400px){
+@media (max-width:500px){
     
     .enlace{
         padding: 3px;
