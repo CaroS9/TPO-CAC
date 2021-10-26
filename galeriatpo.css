@@ -21,7 +21,7 @@
 }
 h1{
     text-align: center;
-    font-size: 2em;
+   /* font-size: 2em;*/
     color: white;
     font-weight: bold;
     padding: 0.5em;
@@ -33,7 +33,7 @@ h3{
     padding: 0.5em;
 
 }
-h4{
+h5{
     color:white;
 }
 
@@ -59,8 +59,8 @@ h4{
 
 }
 .slider img{
-   width: 40%; 
-   height: 60%;
+   width: 44%; 
+   height: 63%;
    padding-top: 1%;
    margin-top: 13%;
 
@@ -80,35 +80,35 @@ footer{
 }
 
 @keyframes cambio {
-    0%{margin-left: 30%; margin-right: 30%;} 
-    5%{margin-left: 30%; margin-right: 30%;}
+    0%{margin-left: 28%; margin-right: 28%;} 
+    5%{margin-left: 28%; margin-right: 28%;}
     
-    10%{margin-left: -70%; margin-right: -70%;}
-    15%{margin-left: -70%; margin-right: -70%;}
+    10%{margin-left: -72%; margin-right: -72%;}
+    15%{margin-left: -72%; margin-right: -72%;}
 
-    20%{margin-left: -170%; margin-right: -170%;}
-    25%{margin-left: -170%; margin-right: -170%;}
+    20%{margin-left: -172%; margin-right: -172%;}
+    25%{margin-left: -172%; margin-right: -172%;}
     
-    30%{margin-left: -270%; margin-right: -270%;}
-    35%{margin-left: -270%; margin-right: -270%;}
+    30%{margin-left: -272%; margin-right: -272%;}
+    35%{margin-left: -275%; margin-right: -275%;}
     
-    40%{margin-left: -370%; margin-right: -370%;}
-    45%{margin-left: -370%; margin-right: -370%;}
+    40%{margin-left: -372%; margin-right: -372%;}
+    45%{margin-left: -375%; margin-right: -375%;}
     
-    50%{margin-left: -470%; margin-right: -470%;}
-    55%{margin-left: -470%; margin-right: -470%;}
+    50%{margin-left: -472%; margin-right: -472%;}
+    55%{margin-left: -472%; margin-right: -472%;}
     
-    60%{margin-left: -570%; margin-right: -570%;}
-    65%{margin-left: -570%; margin-right: -570%;}
+    60%{margin-left: -572%; margin-right: -572%;}
+    65%{margin-left: -572%; margin-right: -572%;}
 
-    70%{margin-left: -670%; margin-right: -670%;}
-    75%{margin-left: -670%; margin-right: -670%;}
+    70%{margin-left: -672%; margin-right: -672%;}
+    75%{margin-left: -672%; margin-right: -672%;}
     
-    80%{margin-left: -770%; margin-right: -770%;;}
-    85%{margin-left: -770%; margin-right: -770%;}
+    80%{margin-left: -772%; margin-right: -772%;;}
+    85%{margin-left: -772%; margin-right: -772%;}
     
-    90%{margin-left: -870%; margin-right: -870%;}
-    100%{margin-left: -870%; margin-right: -870%;}
+    90%{margin-left: -872%; margin-right: -872%;}
+    100%{margin-left: -872%; margin-right: -872%;}
 
 }
 @media (max-width:400px){
