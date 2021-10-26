@@ -120,14 +120,14 @@ footer{
     .enlace{
         padding: 3px;
         font-size: 0.9rem;}
-        h1{ font-size: 1.5em;}
-        h2{ font-size: 0.9em;} 
-        h3{ font-size: 0.8em;} 
-        #cajapadre3c{
+    h1{ font-size: 1.5em;}
+    h2{ font-size: 0.9em;} 
+    h3{ font-size: 0.8em;} 
+   /*  #cajapadre3c{
             flex-direction: column;}
-        #columna-1 {flex:1;}
-        #columna-2 {flex:1;  align-items: center;}
-        #columna-3 {flex:1;}
+    #columna-1 {flex:1;}
+    #columna-2 {flex:1;  align-items: center;}
+     #columna-3 {flex:1;}
 }
  
  
