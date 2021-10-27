@@ -1,105 +1,99 @@
-
-*{ /* width: 100%;*/
-    padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     margin: 0%;
+*{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-    display: flexbox;
-    
-}
 
-header {
-    background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#padre_3c{
+    display: flex;
+    flex-direction: column;
+}
+#encabezado{
+    flex: 1;
     width: 100%;
     margin: 0;
+    padding: 5px;}
+.enlace{ 
+        background-color: rgb(33, 95, 146);
+        padding: 5px;
+        border-radius: 10%;
+        text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+}
+#formulario{
+    flex: 1;
+
+}
+#pie{
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin-top: 0;
     padding: 3px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  /*  flex: 1;*/
+    width: 100%;
+    font-size: 1.1em;
+
+
+}
+
+form{
+    position: relative;
+    max-width: 50%;
+    min-width: 280px;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+   /* transform: translate(-10%, -20%);*/
+    padding: 15px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3) ;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px ;
+    color: #fff;
+    
 }
 h1 {
     color: white;
     text-align: center;
+    font-size:2em;
     font-weight: bold;
-    padding: 0.3em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.3em;}
+h3{
+        color: white;
+        text-align: center;
+        font-size:1.5em;
+        font-weight: bold;
+    /*    margin-bottom: 0.5em;*/
+    }
+h3{
+  /*  position: relative;*/
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: bottom 7px;
 }
-h2{
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 0.2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-h3{ 
-    color:black;
-    font-weight: bold;
-    padding: 0.2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*h3:: after{
+    content:"" ;
+    position: absolute;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    width: 120px;
+    left: 0%;
+    bottom: 0;
     
-}
-p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;}
-
-form{
-    width: 90%;
-}
-fieldset{background-color: rgb(253, 243, 230);
-    margin-left: 3%;
-    margin-right: 3%;
-    padding: 1rem;
-    width: 94%;
-  /*  flex: 6;*/
-   /* overflow: scroll;*/
-}
-input{
-    padding: 0.2rem;
-    margin: 0.2rem;
-    border-radius: 10%;
-}
-
-footer{
-    background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
-    text-align: center;
-    margin-top: 0;
-    padding: 3px;
-    color: white;
-    width: 100%;
-   /* flex: 1;*/
-}
-
-.enlace{ 
-    background-color: rgb(146, 33, 146);
-    padding: 5px;
-    border-radius: 10%;
-    text-decoration: none;
-    color: white;
-    font-size: 1.1em;
-}
-
+}*/
 .preferencias{
     padding: 0%;
     margin: 0%;
-    list-style-type: none;
+    list-style-type: none;}
 
-}
-/*input [type=summit] :hover {
-    background-color: rgb(144, 40, 241);
-    cursor: pointer;
-}
-/*textarea{
-    padding: 0,2%;
-    font-size: 1.2em;
-    color: rgb(0, 139, 69);
+
     
-}*/
-@media (max-width:600px){
-    
-    .enlace{
-        padding: 3px;
-        font-size: 0.9rem;}
-    h1{ font-size: 1.5em;}
-    h2{ font-size: 0.9em;}
-    h3{ font-size: 0.9em;} 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
