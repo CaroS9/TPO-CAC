@@ -1,18 +1,23 @@
-*{  
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{ 
     box-sizing: border-box;
     margin: 0% ;
     padding: 0%;
+}
+body{
+    background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 .header{
-    background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
+  /*  background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);*/
+  background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
     width: 100%;
     margin: 0;
     padding: 10px;
 }
 .enlace{ 
-       background-color: rgb(146, 33, 146);
+      /* background-color: rgb(146, 33, 146);*/
+      background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
         padding: 5px;
         border-radius: 10%;
         text-decoration: none;
@@ -43,7 +48,7 @@ h5{
     height: 100%;
  
     overflow: hidden;
-    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+  /*  background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);*/
     
 }
 .slider ul{
@@ -66,7 +71,8 @@ h5{
 
 }
 footer{
-    background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);
+  /*  background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);*/
+  background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
     color: white;
     text-align: center;
     margin-top: 0;

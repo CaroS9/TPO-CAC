@@ -7,26 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="formulariotpo.css">
-    <!--<script type="text/javascript">
-        function validar() {
-            var form = document.form;
 
-            if (form.nombre.value == 0) {
-                alert("el campo nombre esta vacio");
-                form.nombre.value = "";
-                form.nombre.focus();
-                return false;
-            }
-            if (form.correo.value == 0) {
-                alert("el campo correo esta vacio");
-                form.nombre.value = "";
-                form.correo.focus();
-                return false;
-            }
-            alert("datos enviados exitosamente");
-            form.submit();
-        }
-    </script>-->
     <title>Formulario de contacto</title>
 
 </head>
@@ -47,21 +28,20 @@
         </div>
         <div id="formulario">
 
-            <form name="formulario" action="">
-                <!--</form> method="get" onsubmit="return validar();">-->
+            <form action="" method="get">
+
 
                 <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
                 </h3>
-                <!-- <fieldset>-->
-                <label for="nombre">Nombre:</label>
+
+                <label for=" nombre">Nombre:</label><br>
                 <input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
                     required>
+                <br>
 
-
-
-                <label for="email">E-mail:</label>
+                <label for="email">E-mail:</label><br>
                 <input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
-
+                <br><br>
 
                 <h3>Preferencias de Estilo</h3>
 
@@ -71,20 +51,20 @@
                     <li> <Input type="radio" name="opcion1">Pequeño (13cm x 18cm), 2500$</li>
 
                 </ul>
-
+                <br>
                 <ul class="preferencias">
                     <li><input type="radio" name="opcion2">Realista</li>
                     <li> <input type="radio" name="opcion2">Cubista</li>
 
                 </ul>
-
+                <br>
                 <ul class="preferencias">
                     <li><input type="radio" name="opcion3">Lapiz</li>
                     <li> <input type="radio" name="opcion3">Acuarela</li>
 
                 </ul>
 
-
+                <br>
                 <span>Consulte por otros tamaños y técnicas. •Si lo desea enmarcado en marco de madera natural o
                     negro
                     con
@@ -98,21 +78,17 @@
                     es
                     posible!
                 </span>
+                <br> <br>
 
                 <h3>El pago se realiza por transferencia</h3>
                 <h3>ENVIO GRATIS para Salta</h3>
 
-                <br>
+                <textarea name="comentario" cols="40" rows="10">escriba aqui su mensaje o consulta...  
+                </textarea><br>
 
-                <textarea name="comentario" cols="35" rows="10">escriba aqui su mensaje o consulta...  
-            </textarea><br>
-
-
-                <!--<input type="reset" value="Borrar">-->
-
-                <!--<input onclick="validar();" type="submit" class="" value="Enviar">
-               </fieldset>-->
-                <button>Enviar</button>
+                <input type="submit"   value="Enviar" >
+                
+               
             </form>
         </div>
         <div id="pie">
@@ -127,6 +103,7 @@
             </footer>
         </div>
     </section>
+   
 </body>
 
 </html>
