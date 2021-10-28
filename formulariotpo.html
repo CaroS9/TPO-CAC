@@ -28,7 +28,7 @@
         </div>
         <div>
 
-            <form id="miform" action="" method="get" onclick="return enviar();">
+            <form id="miform" action="" method="get" onsubmit="return enviar();">
 
 
                 <h2>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
@@ -112,7 +112,7 @@
         var dato = formulario[0];
         if (dato.value == "enviar") {
             alert("Se ha enviado exitosamente!");
-            formulario.onsubmit();
+            formulario.submit();
             return true;
         }
     }
