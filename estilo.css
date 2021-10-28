@@ -39,6 +39,14 @@ h3{
    font-weight: bold;
    margin-bottom: 0.5em;
 }
+h4{
+   color: white;
+   text-align: center;
+   font-size:1.3em;
+   font-weight: bold;
+   padding-bottom: 0.3em;
+   padding-top: 1em;
+}
 .enlace{ 
     
     background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
