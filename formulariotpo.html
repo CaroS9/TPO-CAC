@@ -26,9 +26,9 @@
                 </nav>
             </header>
         </div>
-        <div id="formulario">
+        <div>
 
-            <form action="" method="get">
+            <form id="miform" action="" method="get" onsubmit="return enviar();">
 
 
                 <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
@@ -86,9 +86,9 @@
                 <textarea name="comentario" cols="40" rows="10">escriba aqui su mensaje o consulta...  
                 </textarea><br>
 
-                <input type="submit"   value="Enviar" >
-                
-               
+                <input type="submit" value="enviar">
+
+
             </form>
         </div>
         <div id="pie">
@@ -101,9 +101,21 @@
                     style="text-decoration: none; color:white;"><img src="favicons/face.jpg" alt=""></a>
                 <h2>DERECHOS RESERVADOS 2021</h2>
             </footer>
+
         </div>
     </section>
-   
+
 </body>
+<script>
+    function enviar() {
+        var formulario = document.getElementById("miform");
+        var dato = formulario[0];
+        if (dato.value == "enviar") {
+            alert("Se ha enviado exitosamente!");
+            formulario.submit();
+            return true;
+        }
+    }
+</script>
 
 </html>
