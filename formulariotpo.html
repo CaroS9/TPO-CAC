@@ -28,11 +28,11 @@
         </div>
         <div>
 
-            <form id="miform" action="" method="get" onsubmit="return enviar();">
+            <form id="miform" action="" method="get" onclick="return enviar();">
 
 
-                <h3>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
-                </h3>
+                <h2>CONTÁCTEME Ante cualquier duda o consulta puede enviarme un correo a través del siguiente formulario
+                </h2>
 
                 <label for=" nombre">Nombre:</label><br>
                 <input type="text" name="nombre" minlength="5" maxlength="50" placeholder="ingrese su nombre..."
@@ -43,7 +43,7 @@
                 <input type="email" name="correo" id="email" placeholder="su e-mail aqui..." required>
                 <br><br>
 
-                <h3>Preferencias de Estilo</h3>
+                <h2>Preferencias de Estilo</h2>
 
                 <ul class="preferencias">
                     <li><input type="radio" name="opcion1">Grande (30cm x 43cm), 5000$</li>
@@ -80,10 +80,10 @@
                 </span>
                 <br> <br>
 
-                <h3>El pago se realiza por transferencia</h3>
-                <h3>ENVIO GRATIS para Salta</h3>
+                <h2>El pago se realiza por transferencia</h2>
+                <h2>ENVIO GRATIS para Salta</h2>
 
-                <textarea name="comentario" cols="40" rows="10">escriba aqui su mensaje o consulta...  
+                <textarea name="comentario" cols="34" rows="10">escriba aqui su mensaje o consulta...  
                 </textarea><br>
 
                 <input type="submit" value="enviar">
@@ -112,7 +112,7 @@
         var dato = formulario[0];
         if (dato.value == "enviar") {
             alert("Se ha enviado exitosamente!");
-            formulario.submit();
+            formulario.onsubmit();
             return true;
         }
     }
