@@ -105,10 +105,10 @@ textarea, input{
 
 @media (max-width:450px) {
     .enlace{
-        padding: 3px;
+        padding: 2px;
         font-size: 0.9rem;}
-    h1{ font-size: 1.7em;}
-    h2{ font-size: 1.3em;} 
-    h3{ font-size: 1em;} 
+    h1{ font-size: 1.6em;}
+    h2{ font-size: 1.2em;} 
+    h3{ font-size: 0.9em;} 
 
 }    

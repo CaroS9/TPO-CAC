@@ -9,53 +9,44 @@ body{
   
 }
 .header{
-  /*  background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);*/
-  background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
+    background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
     width: 100%;
     margin: 0;
     padding: 10px;
 }
-.enlace{ 
-      /* background-color: rgb(146, 33, 146);*/
-      background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
-        padding: 5px;
-        border-radius: 10%;
-        text-decoration: none;
-        color:white;
-        font-size: 1.1em;
+.enlace{       
+    background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
+    padding: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color:white;
+    font-size: 1.1em;
 }
-h1{
+h1{ font-size: 2em ;
     text-align: center;
-   /* font-size: 2em;*/
     color: white;
     font-weight: bold;
-    padding: 0.5em;
+    padding: 0.4em;
 }
-h3{
+h3{ font-size: 1.5em;
     color:white;
     text-align: center;
     font-weight: bold;
-    padding: 0.5em;
-
+    padding-bottom: 0.4em;
 }
 h5{
     color:white;
 }
 
 .slider{
- 
     width: 100%;
     height: 100%;
- 
     overflow: hidden;
-  /*  background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);*/
-    
 }
 .slider ul{
     display: flex;
     animation: cambio 50s infinite alternate linear;
-    width: 1000%;    
-    
+    width: 1000%;      
 }
 
 .slider li{
@@ -71,18 +62,13 @@ h5{
 
 }
 footer{
-  /*  background: linear-gradient(to right, #27343f 0%, hsl(281, 41%, 27%) 100%);*/
-  background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
-    color: white;
+   background-image: linear-gradient(-225deg, #f59cce 0%, #b76ff5 52%, #50a1db 100%);
+   color: white;
     text-align: center;
     margin-top: 0;
     padding: 3px;
     width: 100%;
-    font-size: 1.1em;   
-   /* position: fixed;
-    left: 0%;
-    bottom: 0%;*/
-
+    font-size: 1.1em; 
 }
 
 @keyframes cambio {
