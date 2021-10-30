@@ -102,6 +102,24 @@ textarea, input{
     border-radius: 3px;
     padding: 3px;    
 }
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+    background: #a0689884;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: rgb(158, 70, 240);
+}
 
 @media (max-width:450px) {
     .enlace{

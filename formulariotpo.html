@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="formulariotpo.css">
 
     <title>Formulario de contacto</title>
-   
+
 </head>
 
 <body>
@@ -35,11 +35,11 @@
                 </h2>
 
                 <label for=" nombre">Nombre:</label><br>
-                <input type="text" name="nombre" id="nombre"  placeholder="ingrese su nombre..." >
+                <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre...">
                 <br>
 
                 <label for="email">E-mail:</label><br>
-                <input type="email" name="correo" id="email" placeholder="su e-mail aqui..."  >
+                <input type="email" name="correo" id="email" placeholder="su e-mail aqui...">
                 <br><br>
 
                 <h2>Preferencias de Estilo</h2>
@@ -85,8 +85,8 @@
                 <textarea name="comentario" cols="34" rows="10">escriba aqui su mensaje o consulta...  
                 </textarea><br>
 
-                <input type="submit" value="enviar">
-
+                
+                <button type="submit" class="boton"><span>ENVIAR</span></button>
 
             </form>
         </div>
@@ -108,30 +108,37 @@
             var nombre, email, formulario, dato, expresion;
             nombre = document.getElementById("nombre").value;
             email = document.getElementById("email").value;
+            formulario = document.getElementById("miform");
+            dato = formulario[0];
+
 
             expresion = /\w+@\w+\.+[a-z]/;
 
-            if(nombre=="" || email=="" ) {
-               alert("Todos los campos son obligatorios");
-               return false;
+            if (nombre == "" || email == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
             }
-           
-            else if(nombre.length>30) {
+
+            else if (nombre.length > 30) {
                 alert("El nombre es muy largo, solo puede tener 30 caracterescomo máximo");
-               return false;
+                return false;
             }
-            else if(email.length>100) {
+            else if (email.length > 100) {
                 alert("El correo es muy largo, solo puede tener 100 caracteres como máximo y ¨.¨ y  ¨@¨ ");
-               return false;
+                return false;
             }
-            else if(!expresion.test(email)) {
-                alert("El correo no es válido, recuerde @ y ¨.¨ y letras después de ¨.¨");
-               return false;
+            else if (!expresion.test(email)) {
+                alert("El correo no es válido, recuerde @, ¨.¨ y solo letras después de ¨.¨");
+                return false;
             }
-          
-            }
-        
-   </script>
+            else (dato.value=="enviar") {
+          alert("Se ha enviado exitosamente!");
+         formulario.submit();
+          return true;
+        } 
+           }
+
+    </script>
 </body>
 
 
