@@ -105,11 +105,11 @@
     </section>
     <script>
         function validar() {
-            var nombre, email, formulario, dato, expresion;
+            var nombre, email, expresion;
             nombre = document.getElementById("nombre").value;
             email = document.getElementById("email").value;
-            formulario = document.getElementById("miform");
-            dato = formulario[0];
+           // formulario = document.getElementById("miform");
+          //  dato = formulario[0];
 
 
             expresion = /\w+@\w+\.+[a-z]/;
@@ -130,11 +130,11 @@
             else if (!expresion.test(email)) {
                 alert("El correo no es válido, recuerde @, ¨.¨ y solo letras después de ¨.¨");
                 return false;
-            }
-            else (dato.value=="enviar") {
-          alert("Se ha enviado exitosamente!");
-         formulario.submit();
-          return true;
+        //    }
+       //     else (dato.value=="enviar") {
+       //   alert("Se ha enviado exitosamente!");
+       //  formulario.submit();
+    //      return true;
         } 
            }
 
